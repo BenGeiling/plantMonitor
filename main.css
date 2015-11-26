@@ -1,0 +1,43 @@
+html, body	{margin:0; padding:0; height:100%; overflow: hidden;}
+
+#container	{position: relative; width: 100%;}
+#center	{position: relative; width: 581px; margin-top: 20px; margin-left: auto; margin-right: auto;}
+#serverOutput	{position: relative; float: left; margin-left: 200px; margin-top: 50px; height: 400px; width: 400px; right: 50px; top: 50px; border-style: solid; border-width: 3px; border-color: black; font-variant: small-caps; font-family: arial; font-size: 10px; overflow: hidden;}
+#serverInput	{position: relative; float: left; margin-left: 200px; margin-top: 50px; height: 200px; width: 400px; right: 50px; top: 500px; border-style: solid; border-width: 3px; border-color: black; font-variant: small-caps; font-family: arial; font-size: 10px; overflow: hidden;}
+#overlay {}
+
+#backgroundFloat-Left	{position: absolute; display: block; top: 10px;}
+
+#water1	{position: absolute; top: 166px; left: 9px; width: 130px; height: 130px; margin: 0px auto;}
+#water2	{position: absolute; top: 166px; left: 153px; width: 130px; height: 130px; margin: 0px auto;}
+#water3	{position: absolute; top: 166px; right: 153px; width: 130px; height: 130px; margin: 0px auto;}
+#water4	{position: absolute; top: 166px; right: 9px; width: 130px; height: 130px; margin: 0px auto;}
+
+#water5	{position: absolute; top: 454px; left: 9px; width: 130px; height: 130px; margin: 0px auto;}
+#water6	{position: absolute; top: 454px; left: 153px; width: 130px; height: 130px; margin: 0px auto;}
+#water7	{position: absolute; top: 454px; right: 153px; width: 130px; height: 130px; margin: 0px auto;}
+#water8	{position: absolute; top: 454px; right: 9px; width: 130px; height: 130px; margin: 0px auto;}
+
+#water9		{position: absolute; top: 742px; left: 9px; width: 130px; height: 130px; margin: 0px auto;}
+#water10	{position: absolute; top: 742px; left: 153px; width: 130px; height: 130px; margin: 0px auto;}
+#water11	{position: absolute; top: 742px; right: 153px; width: 130px; height: 130px; margin: 0px auto;}
+#water12	{position: absolute; top: 742px; right: 9px; width: 130px; height: 130px; margin: 0px auto;}
+
+#waterLabel1	{position: absolute; text-align: center; left: 9px; width: 130px; top: 210px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel2	{position: absolute; text-align: center; left: 153px; width: 130px; top: 210px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel3	{position: absolute; text-align: center; right: 153px; width: 130px; top: 210px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel4	{position: absolute; text-align: center; right: 9px; width: 130px; top: 210px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+
+#waterLabel5	{position: absolute; text-align: center; left: 9px; width: 130px; top: 498px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel6	{position: absolute; text-align: center; left: 153px; width: 130px; top: 498px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel7	{position: absolute; text-align: center; right: 153px; width: 130px; top: 498px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel8	{position: absolute; text-align: center; right: 9px; width: 130px; top: 498px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+
+#waterLabel9	{position: absolute; text-align: center; left: 9px; width: 130px; top: 786px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel10	{position: absolute; text-align: center; left: 153px; width: 130px; top: 786px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel11	{position: absolute; text-align: center; right: 153px; width: 130px; top: 786px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+#waterLabel12	{position: absolute; text-align: center; right: 9px; width: 130px; top: 786px; color: black; font-size: 30px; font-weight: bold; font-variant: small-caps; font-family: arial; opacity: 0.4; filter:alpha(opacity=40);}
+
+#light1 {z-index: -1; position: absolute; top: 10px; left: 1px; width: 577px; height: 150px; margin: 0px auto;}
+#light2 {z-index: -1; position: absolute; top: 298px; left: 1px; width: 577px; height: 150px; margin: 0px auto;}
+#light3 {z-index: -1; position: absolute; top: 586px; left: 1px; width: 577px; height: 150px; margin: 0px auto;}

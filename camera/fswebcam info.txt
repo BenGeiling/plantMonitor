@@ -1,0 +1,1 @@
+fswebcam -d v4l2:/dev/video1 -i 0 -F 5 -p MJPEG -r 1920x1080 -l 2 --no-banner camera.jpeg

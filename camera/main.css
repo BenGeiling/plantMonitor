@@ -1,0 +1,4 @@
+html, body	{margin:0; padding:0; height:100%; background: #000000;}
+#camera 	{display: block; height: 75%; width: 75%; margin-left: auto; margin-right: auto;}
+#floater	{float: left; height: 50%; margin-bottom: -20%;}
+#wrapper	{clear: both; position: relative;}
